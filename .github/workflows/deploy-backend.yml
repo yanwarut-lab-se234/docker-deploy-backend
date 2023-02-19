@@ -6,7 +6,7 @@ name: Deploy backend to host
 
 jobs:
   docker:
-    runs-on:
+    runs-on: ubuntu-latest
     steps:
       -
         name: Checkout
