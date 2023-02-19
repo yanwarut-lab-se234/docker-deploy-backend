@@ -1,7 +1,8 @@
 name: Deploy backend to host
 'on':
-  branches:
-    - main
+ push:
+   branches:
+     - main
 
 jobs:
   docker:
